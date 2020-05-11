@@ -10,3 +10,7 @@ h1{
 .showing {
     display : block;
 }
+
+body{
+    color:#34495e;
+}
