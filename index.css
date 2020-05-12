@@ -1,6 +1,12 @@
-h1{
-    color:#34495e;
+.js-clock{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50%;
+    font-size: 24px;
+    color:#3c7cbd;
 }
+/*화면크기를 인지시켜 시계가 가운데 또는 가운데 위에 있게하자!*/
+
 
 .form,
 .greetings {
