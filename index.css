@@ -1,9 +1,6 @@
 .js-clock{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50%;
     font-size: 24px;
-    color:#3c7cbd;
+    color:white;
 }
 /*화면크기를 인지시켜 시계가 가운데 또는 가운데 위에 있게하자!*/
 
@@ -18,5 +15,24 @@
 }
 
 body{
-    color:#34495e;
+    color:white;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.bgImage{
+    position: absolute;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100%;
+    z-index: -1;    
+    animation : fadeIn 0.5s linear;
 }
