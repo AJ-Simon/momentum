@@ -4,6 +4,12 @@
 }
 /*화면크기를 인지시켜 시계가 가운데 또는 가운데 위에 있게하자!*/
 
+.js-weather{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 22px;
+    color:white;
+}
 
 .form,
 .greetings {
