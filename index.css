@@ -1,5 +1,9 @@
 .js-clock{
-    font-size: 24px;
+    display:flex;
+    justify-content: center;
+    margin-top : 10%;
+    height : 150px;
+    font-size: 38px;
     color:white;
 }
 /*화면크기를 인지시켜 시계가 가운데 또는 가운데 위에 있게하자!*/
@@ -7,17 +11,30 @@
 .js-weather{
     display: flex;
     justify-content: flex-end;
-    font-size: 22px;
+    font-size: 12px;
     color:white;
 }
 
 .form,
 .greetings {
     display : none;
+    font-size: 26px;
 }
 
 .showing {
     display : block;
+}
+
+.js-greetings{
+    display:flex;
+    justify-content: center;
+    margin : 0px;
+    font-size: 40px;
+}
+.js-toDoForm{
+    display:flex;
+    justify-content: center;
+    margin-top : 20px;
 }
 
 body{
